@@ -7,7 +7,6 @@ public class Login extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">
     private void initComponents() {
 
         jPanel2 = new javax.swing.JPanel();
@@ -177,14 +176,14 @@ public class Login extends javax.swing.JFrame {
         getAccessibleContext().setAccessibleDescription("");
 
         pack();
-    }// </editor-fold>
+    }
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+
     }
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -199,12 +198,6 @@ public class Login extends javax.swing.JFrame {
         this.dispose();
     }
 
-    /**
-     * @param args the command line arguments
-     */
-
-
-    // Variables declaration - do not modify
     private javax.swing.JPanel Left;
     private javax.swing.JPanel Right;
     private javax.swing.JButton jButton1;
@@ -217,5 +210,4 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
-    // End of variables declaration
 }
