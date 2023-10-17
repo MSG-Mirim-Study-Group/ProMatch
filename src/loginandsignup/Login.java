@@ -90,7 +90,7 @@ public class Login extends javax.swing.JFrame {
         });
 
         jButton1.setBackground(new java.awt.Color(80, 175, 217));
-        jButton1.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Login");
         jButton1.setPreferredSize(new java.awt.Dimension(74, 23));
@@ -100,10 +100,10 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("맑은 고딕", 1, 12));
         jLabel4.setText("계정을 찾을 수 없습니다.");
 
-        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jButton2.setForeground(new java.awt.Color(255, 51, 51));
         jButton2.setText("Sign Up");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
