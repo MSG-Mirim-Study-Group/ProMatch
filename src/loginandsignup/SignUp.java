@@ -61,15 +61,15 @@ public class SignUp extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(400, 500));
 
-        jLabel2.setFont(new java.awt.Font("맑은 고딕", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("맑은 고딕", 1, 36));
         jLabel2.setForeground(new java.awt.Color(80, 175, 217));
         jLabel2.setText("Sign Up");
 
-        jLabel3.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setText("Full name");
 
-        jTextField1.setFont(new java.awt.Font("맑은 고딕", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("맑은 고딕", 0, 14));
         jTextField1.setForeground(new java.awt.Color(102, 102, 102));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,11 +77,11 @@ public class SignUp extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jLabel4.setForeground(new java.awt.Color(102, 102, 102));
         jLabel4.setText("Email");
 
-        jTextField2.setFont(new java.awt.Font("맑은 고딕", 0, 14)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("맑은 고딕", 0, 14));
         jTextField2.setForeground(new java.awt.Color(102, 102, 102));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,22 +89,22 @@ public class SignUp extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jLabel5.setForeground(new java.awt.Color(102, 102, 102));
         jLabel5.setText("Password");
 
-        jPasswordField1.setFont(new java.awt.Font("맑은 고딕", 0, 14)); // NOI18N
+        jPasswordField1.setFont(new java.awt.Font("맑은 고딕", 0, 14));
         jPasswordField1.setForeground(new java.awt.Color(102, 102, 102));
 
-        jLabel6.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("맑은 고딕", 1, 12));
         jLabel6.setText("계정이 이미 존재합니다.");
 
         jButton1.setBackground(new java.awt.Color(80, 175, 217));
-        jButton1.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Sign Up");
 
-        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14)); git 
         jButton2.setForeground(new java.awt.Color(255, 51, 51));
         jButton2.setText("Login");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
