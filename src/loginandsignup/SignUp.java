@@ -97,14 +97,14 @@ public class SignUp extends javax.swing.JFrame {
         jPasswordField1.setForeground(new java.awt.Color(102, 102, 102));
 
         jLabel6.setFont(new java.awt.Font("맑은 고딕", 1, 12));
-        jLabel6.setText("계정이 이미 존재합니다.");
+        jLabel6.setText("계정이 이미 존재합니다. ");
 
         jButton1.setBackground(new java.awt.Color(80, 175, 217));
         jButton1.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Sign Up");
 
-        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14));  
+        jButton2.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         jButton2.setForeground(new java.awt.Color(255, 51, 51));
         jButton2.setText("Login");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
