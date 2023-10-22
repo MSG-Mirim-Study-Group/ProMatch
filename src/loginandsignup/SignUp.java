@@ -35,7 +35,7 @@ public class SignUp extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(80, 175, 217));
         jPanel2.setPreferredSize(new java.awt.Dimension(400, 500));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\hyewo\\OneDrive\\Documents\\NetBeansProjects\\LoginAndSignUp\\src\\Icon\\logo (3).png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\hyewo\\OneDrive\\Documents\\NetBeansProjects\\LoginAndSignUp\\src\\Icon\\logo (3).png"));
         jLabel1.setText("jLabel1");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
