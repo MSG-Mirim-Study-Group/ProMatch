@@ -1,4 +1,4 @@
-package loginandsignup;
+package Start;
 
 public class LoginAndSignUp {
     public static void main(String[] args) {    // 맨 처음 로그인 창으로 나오게 함
