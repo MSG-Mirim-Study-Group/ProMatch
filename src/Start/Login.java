@@ -192,10 +192,10 @@ public class Login extends javax.swing.JFrame {
     }
 
     private void LoginButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        Check CheckFrame = new Check();
-        CheckFrame.setVisible(true);
-        CheckFrame.pack();
-        CheckFrame.setLocationRelativeTo(null);
+        Gong gongFrame = new Gong();
+        gongFrame.setVisible(true);
+        gongFrame.pack();
+        gongFrame.setLocationRelativeTo(null);
         this.dispose();
     }
 
