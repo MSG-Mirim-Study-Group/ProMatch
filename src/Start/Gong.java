@@ -1,9 +1,9 @@
 
 package Start;
 
-public class Check extends javax.swing.JFrame {
+public class Gong extends javax.swing.JFrame {
 
-    public Check() {
+    public Gong() {
         initComponents();
     }
     @SuppressWarnings("unchecked")
@@ -22,13 +22,17 @@ public class Check extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
+        setTitle("공모전");
+        setPreferredSize(new java.awt.Dimension(800, 500));
         jPanel1.setBackground(new java.awt.Color(80, 175, 217));
 
         GongButton.setBackground(new java.awt.Color(80, 175, 217));
         GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         GongButton.setForeground(new java.awt.Color(255, 255, 0));
         GongButton.setText("공모전");
+        GongButton.setBorderPainted(false);     //외곽선 없애기
+        GongButton.setFocusPainted(false);      //클릭했을때 외곽선 없애기
+
         GongButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 GongButtonActionPerformed(evt);
@@ -39,6 +43,13 @@ public class Check extends javax.swing.JFrame {
         ProjectButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         ProjectButton.setForeground(new java.awt.Color(255, 255, 255));
         ProjectButton.setText("프로젝트");
+        ProjectButton.setBorderPainted(false);      //외곽선 없애기
+        ProjectButton.setFocusPainted(false);       //클릭했을때 외곽선 없애기
+        ProjectButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ProjectButtonActionPerformed(evt);
+            }
+        });
 
         logo.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스크린샷_2023-08-16_192857-removebg-preview 1 (2).png"));
 
@@ -58,20 +69,21 @@ public class Check extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
                 jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGap(17, 17, 17)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(GongButton)
-                                                        .addComponent(ProjectButton)))
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addContainerGap()
-                                                .addComponent(logo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                .addGap(450, 450, 450))
+                                .addContainerGap()
+                                .addComponent(logo, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
+                                .addContainerGap())
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(16, 16, 16)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(ProjectButton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(GongButton))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스마틴 앱챌린지 포스터.png"));
         jButton1.setToolTipText("");
+        jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -80,6 +92,8 @@ public class Check extends javax.swing.JFrame {
 
         jButton2.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\청년 창업아이디어 공모전-포스터.png"));
         jButton2.setToolTipText("");
+        jButton2.setBorderPainted(false);
+        jButton2.setContentAreaFilled(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -88,6 +102,8 @@ public class Check extends javax.swing.JFrame {
 
         jButton3.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\세상을 바꾸는 코딩.png"));
         jButton3.setToolTipText("");
+        jButton3.setBorderPainted(false);
+        jButton3.setContentAreaFilled(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -96,6 +112,8 @@ public class Check extends javax.swing.JFrame {
 
         jButton4.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\메타버스 크리에이터.png"));
         jButton4.setToolTipText("");
+        jButton4.setBorderPainted(false);
+        jButton4.setContentAreaFilled(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -104,6 +122,8 @@ public class Check extends javax.swing.JFrame {
 
         jButton5.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스크린샷 2023-08-28 163721 1.png"));
         jButton5.setToolTipText("");
+        jButton5.setBorderPainted(false);
+        jButton5.setContentAreaFilled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -112,6 +132,8 @@ public class Check extends javax.swing.JFrame {
 
         jButton6.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\앱잼.png"));
         jButton6.setToolTipText("");
+        jButton6.setBorderPainted(false);
+        jButton6.setContentAreaFilled(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -175,10 +197,18 @@ public class Check extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>
+    }
 
     private void GongButtonActionPerformed(java.awt.event.ActionEvent evt) {
 
+    }
+
+    private void ProjectButtonActionPerformed(java.awt.event.ActionEvent evt) {
+        Project ProjectFrame = new Project();
+        ProjectFrame.setVisible(true);
+        ProjectFrame.pack();
+        ProjectFrame.setLocationRelativeTo(null);
+        this.dispose(); //현재 로그인 창 닫음
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -205,7 +235,6 @@ public class Check extends javax.swing.JFrame {
 
     }
 
-    // Variables declaration - do not modify
     private javax.swing.JButton GongButton;
     private javax.swing.JButton ProjectButton;
     private javax.swing.JButton jButton1;
@@ -217,5 +246,4 @@ public class Check extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel logo;
-    // End of variables declaration
 }
