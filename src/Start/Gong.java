@@ -21,6 +21,7 @@ public class Gong extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
 
+        setSize(800,500);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("공모전");
         setPreferredSize(new java.awt.Dimension(800, 500));
