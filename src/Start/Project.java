@@ -14,8 +14,9 @@ public class Project extends javax.swing.JFrame {
         ProjectButton = new javax.swing.JButton();
         GongButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jButton3 = new javax.swing.JButton();
+        MemGetButton = new javax.swing.JButton();
 
+        setSize(800,500);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 500));
         jPanel1.setBackground(new java.awt.Color(80, 175, 217));
@@ -87,9 +88,14 @@ public class Project extends javax.swing.JFrame {
                         .addGap(0, 363, Short.MAX_VALUE)
         );
 
-        jButton3.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(51, 0, 204));
-        jButton3.setText("팀원 모집하기");
+        MemGetButton.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        MemGetButton.setForeground(new java.awt.Color(51, 0, 204));
+        MemGetButton.setText("팀원 모집하기");
+        MemGetButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MemGetButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -99,7 +105,7 @@ public class Project extends javax.swing.JFrame {
                         .addGroup(layout.createSequentialGroup()
                                 .addGap(31, 31, 31)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jButton3)
+                                        .addComponent(MemGetButton)
                                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addContainerGap(31, Short.MAX_VALUE))
         );
@@ -108,7 +114,7 @@ public class Project extends javax.swing.JFrame {
                         .addGroup(layout.createSequentialGroup()
                                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                                .addComponent(jButton3)
+                                .addComponent(MemGetButton)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18))
@@ -129,6 +135,14 @@ public class Project extends javax.swing.JFrame {
         });
     }
 
+    private void MemGetButtonActionPerformed(java.awt.event.ActionEvent evt) {
+        MemberGet memberGetFrame = new MemberGet();
+        memberGetFrame.setVisible(true);
+        memberGetFrame.pack();
+        memberGetFrame.setLocationRelativeTo(null);
+        this.dispose();
+    }
+
     private void GongButtonActionPerformed(java.awt.event.ActionEvent evt) {
         Gong gongFrame = new Gong();
         gongFrame.setVisible(true);
@@ -139,7 +153,7 @@ public class Project extends javax.swing.JFrame {
 
     private javax.swing.JButton ProjectButton;
     private javax.swing.JButton GongButton;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton MemGetButton;
     private javax.swing.JLabel logo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

@@ -23,6 +23,7 @@ public class Login extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         SignUpButton = new javax.swing.JButton();
 
+        setSize(800,500);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("LOGIN");
         setPreferredSize(new java.awt.Dimension(800, 500));

@@ -24,6 +24,7 @@ public class SignUp extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
+        setSize(800,500);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sign Up");
         setPreferredSize(new java.awt.Dimension(800, 500));
