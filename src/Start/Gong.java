@@ -15,7 +15,7 @@ public class Gong extends javax.swing.JFrame {
         logo = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        ItemGong = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
@@ -25,10 +25,10 @@ public class Gong extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("공모전");
         setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel1.setBackground(new java.awt.Color(80, 175, 217));
+        jPanel1.setBackground(new java.awt.Color(80, 175, 217));    //패널 바탕 색
 
-        GongButton.setBackground(new java.awt.Color(80, 175, 217));
-        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));
+        GongButton.setBackground(new java.awt.Color(80, 175, 217));     // 버튼 배경 색
+        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));  //버튼 폰트 스타일 크기
         GongButton.setForeground(new java.awt.Color(255, 255, 0));
         GongButton.setText("공모전");
         GongButton.setBorderPainted(false);     //외곽선 없애기
@@ -83,28 +83,28 @@ public class Gong extends javax.swing.JFrame {
 
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스마틴 앱챌린지 포스터.png"));
         jButton1.setToolTipText("");
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
+        jButton1.setBorderPainted(false);           //외곽선 없애기
+        jButton1.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\청년 창업아이디어 공모전-포스터.png"));
-        jButton2.setToolTipText("");
-        jButton2.setBorderPainted(false);
-        jButton2.setContentAreaFilled(false);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        ItemGong.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\청년 창업아이디어 공모전-포스터.png"));
+        ItemGong.setToolTipText("");
+        ItemGong.setBorderPainted(false);           //외곽선 없애기
+        ItemGong.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
+        ItemGong.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ItemGongActionPerformed(evt);
             }
         });
 
         jButton3.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\세상을 바꾸는 코딩.png"));
         jButton3.setToolTipText("");
-        jButton3.setBorderPainted(false);
-        jButton3.setContentAreaFilled(false);
+        jButton3.setBorderPainted(false);           //외곽선 없애기
+        jButton3.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -113,8 +113,8 @@ public class Gong extends javax.swing.JFrame {
 
         jButton4.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\메타버스 크리에이터.png"));
         jButton4.setToolTipText("");
-        jButton4.setBorderPainted(false);
-        jButton4.setContentAreaFilled(false);
+        jButton4.setBorderPainted(false);           //외곽선 없애기
+        jButton4.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -123,8 +123,8 @@ public class Gong extends javax.swing.JFrame {
 
         jButton5.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스크린샷 2023-08-28 163721 1.png"));
         jButton5.setToolTipText("");
-        jButton5.setBorderPainted(false);
-        jButton5.setContentAreaFilled(false);
+        jButton5.setBorderPainted(false);           //외곽선 없애기
+        jButton5.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -133,8 +133,8 @@ public class Gong extends javax.swing.JFrame {
 
         jButton6.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\앱잼.png"));
         jButton6.setToolTipText("");
-        jButton6.setBorderPainted(false);
-        jButton6.setContentAreaFilled(false);
+        jButton6.setBorderPainted(false);           //외곽선 없애기
+        jButton6.setContentAreaFilled(false);       //클릭했을때 외곽선 없애기
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -149,7 +149,7 @@ public class Gong extends javax.swing.JFrame {
                                 .addGap(27, 27, 27)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addGroup(jPanel2Layout.createSequentialGroup()
-                                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(ItemGong, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(43, 43, 43)
                                                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(jPanel2Layout.createSequentialGroup()
@@ -173,7 +173,7 @@ public class Gong extends javax.swing.JFrame {
                                                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(ItemGong, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,8 +216,12 @@ public class Gong extends javax.swing.JFrame {
 
     }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
-
+    private void ItemGongActionPerformed(java.awt.event.ActionEvent evt) {
+        ItemGong ItemGongFrame = new ItemGong();
+        ItemGongFrame.setVisible(true);
+        ItemGongFrame.pack();
+        ItemGongFrame.setLocationRelativeTo(null);
+        this.dispose();
     }
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -239,7 +243,7 @@ public class Gong extends javax.swing.JFrame {
     private javax.swing.JButton GongButton;
     private javax.swing.JButton ProjectButton;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton ItemGong;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

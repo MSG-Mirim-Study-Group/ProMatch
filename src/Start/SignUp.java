@@ -110,7 +110,7 @@ public class SignUp extends javax.swing.JFrame {
         jButton2.setText("Login");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                LoginButtonActionPerformed(evt);
             }
         });
 
@@ -194,7 +194,7 @@ public class SignUp extends javax.swing.JFrame {
 
     }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {      //sign up 버튼을 눌렀을 때 호출
+    private void LoginButtonActionPerformed(java.awt.event.ActionEvent evt) {      //sign up 버튼을 눌렀을 때 호출
         Login LoginFrame = new Login();
         LoginFrame.setVisible(true);
         LoginFrame.pack();

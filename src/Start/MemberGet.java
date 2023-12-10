@@ -31,7 +31,7 @@ public class MemberGet extends javax.swing.JFrame {
         logo.setIcon(new javax.swing.ImageIcon("C:\\project\\ProMatch\\src\\Icon\\스크린샷_2023-08-16_192857-removebg-preview 1 (2).png")); // NOI18N
 
         GongButton.setBackground(new java.awt.Color(80, 175, 217));
-        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         GongButton.setForeground(new java.awt.Color(255, 255, 255));
         GongButton.setText("공모전");
         GongButton.setBorderPainted(false);     //외곽선 없애기
@@ -77,12 +77,6 @@ public class MemberGet extends javax.swing.JFrame {
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-
-        TitleField.setText("제목을 입력하세요");
-
-        ContentField.setText("내용을 입력하세요");
-
-        LinkField.setText("오픈채팅 및 SNS 주소 첨부");
 
         TitleLabel.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         TitleLabel.setForeground(new java.awt.Color(102, 102, 102));
@@ -162,6 +156,7 @@ public class MemberGet extends javax.swing.JFrame {
         );
 
         pack();
+
     }
 
     private void GongButtonActionPerformed(java.awt.event.ActionEvent evt) {
