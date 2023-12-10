@@ -217,10 +217,10 @@ public class Gong extends javax.swing.JFrame {
     }
 
     private void ItemGongActionPerformed(java.awt.event.ActionEvent evt) {
-        ItemGong ItemGongFrame = new ItemGong();
-        ItemGongFrame.setVisible(true);
-        ItemGongFrame.pack();
-        ItemGongFrame.setLocationRelativeTo(null);
+        Detail DetailFrame = new Detail();
+        DetailFrame.setVisible(true);
+        DetailFrame.pack();
+        DetailFrame.setLocationRelativeTo(null);
         this.dispose();
     }
 
