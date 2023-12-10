@@ -37,7 +37,7 @@ public class Project extends javax.swing.JFrame {
         });
 
         GongButton.setBackground(new java.awt.Color(80, 175, 217));
-        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+        GongButton.setFont(new java.awt.Font("맑은 고딕", 1, 14));
         GongButton.setForeground(new java.awt.Color(255, 255, 255));
         GongButton.setText("공모전");
         GongButton.setBorderPainted(false);     //외곽선 없애기
