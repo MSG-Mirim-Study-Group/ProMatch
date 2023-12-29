@@ -196,7 +196,6 @@ public class Gong extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
         pack();
     }
 
@@ -229,15 +228,12 @@ public class Gong extends javax.swing.JFrame {
     }
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
-
     }
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
-
     }
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
-
     }
 
     private javax.swing.JButton GongButton;
